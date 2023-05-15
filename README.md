@@ -36,8 +36,8 @@ $ docker stop [ID]
 $ docker -v /path/in/host:/etc/todos -p 3000:3000 -d getting-started
 ```
 
-# can be now removed and created again, contents will remain in host:container bidirectionally.
-# makes changes in image and build again
+## can be now removed and created again, contents will remain in host:container bidirectionally.
+## makes changes in image and build again
 
 ```
 $ docker build -t getting-started:v2 .
@@ -65,10 +65,11 @@ $ docker logs [ID]
 ```
 
 # Docker Compose
+```
 $ docker-compose up -d
 $ docker ps
 $ docker compose down
 $ docker ps
-
+```
 
 
